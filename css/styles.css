@@ -444,11 +444,12 @@ height: 40px;
 .footer-wrap {
 display: flex;
 align-items: baseline;
+margin-right: 120px;
 }
 .footer-container {
   display: block;
   margin-left: 156px;
-  margin-right: 120px;
+  
 
 }
 .link-logo-footer {
