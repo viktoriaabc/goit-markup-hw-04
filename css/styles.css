@@ -76,6 +76,7 @@ address {
   display: flex;
   align-items: center;
 }
+
 .link-logo-header {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -96,6 +97,7 @@ address {
   text-transform: uppercase;
   color: var(--navy-blue);
 }
+
 .nav-list {
   display: flex;
   gap: 40px;
@@ -114,6 +116,7 @@ address {
 .nav-item:focus {
   color: var(--ocean)
 }
+
 .nav-link.current {
   position:relative;
 } 
@@ -127,11 +130,12 @@ address {
   height: 4px;
   bottom: -1px;
   left: 0;
-
 }
+
 .menu-nav {
   transform: var(--animation);
 }
+
 .menu-nav:hover,
 .menu-nav:focus,
 .menu-nav:active {
@@ -141,6 +145,7 @@ address {
 .nav-link {
   padding: 24px 0;
 }
+
 .contacts {
   color: var(--slate);
   font-style: normal;
@@ -153,9 +158,11 @@ address {
   display: flex;
   gap: 40px;
 }
+
 .contacts-item {
   transition: var(--animation);
 }
+
 .contacts-item:hover,
 .contacts-item:active,
 .contacts:focus {
@@ -164,10 +171,13 @@ address {
 
 .contacts-mail {
 }
+
 .contacts-tel {
 }
+
 .page-main {
 }
+
 .section-hero {
   background-color: #2e2f42;
   padding-top: 188px;
@@ -182,11 +192,11 @@ address {
   background-size: cover;
   background-position: center;
 }
-.hero-container {
 
+.hero-container {
   width: 100%;
-  
 }
+
 .hero-title {
   color: var(--white);
   font-size: 56px;
@@ -200,6 +210,7 @@ address {
   margin-right: auto;
   text-align: center;
 }
+
 .hero-order-button {
   color: var(--white);
   background-color: var(--iris);
@@ -215,20 +226,24 @@ address {
   margin: 0 auto;
   transition: var(--animation);
 }
+
 .hero-order-button:hover,
 .hero-order-button:focus,
 .hero-order-button:active {
   background-color: var(--ocean);
 }
+
 .section-features {
   padding: 120px 0;
 }
+
 .features-container {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
   max-width: 1128px;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -240,16 +255,18 @@ address {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   clip-path: inset(100%);
- 
 }
+
 .features-list {
   display: flex;
   justify-content: space-between;
   gap: 24px;
 }
+
 .features-item {
   width: calc((100%-72px) / 3);
 }
+
 .feature-wrap {
   display: flex;
   justify-content: center;
@@ -260,6 +277,7 @@ address {
   height: 112px;
   margin-bottom: 8px;
 }
+
 .features-name {
   font-weight: 500;
   font-size: 20px;
@@ -268,18 +286,22 @@ address {
   color: var(--navy-blue);
   margin-bottom: 8px;
 }
+
 .features-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .section-team {
   padding: 120px 0;
   background-color: #f4f4fd;
 }
+
 .team-container {
   margin: 0 auto;
   background-color: var(--cloud);
 }
+
 .team-title {
   font-size: 36px;
   line-height: 1.11;
@@ -288,10 +310,12 @@ address {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
 .team-list {
   display: flex;
   gap: 24px;
 }
+
 .team-item {
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
@@ -300,10 +324,12 @@ address {
   background: var(--white);
   overflow: hidden;
 }
+
 .team-img {
   width: 264px;
   height: 260px;
 }
+
 .team-wrap {
   padding: 32px 0;
 }
@@ -317,6 +343,7 @@ address {
   text-align: center;
   margin-bottom: 8px;
 }
+
 .team-text {
   font-size: 16px;
   line-height: 1.5;
@@ -324,16 +351,19 @@ address {
   text-align: center;
   margin-bottom: 8px;
 }
+
 .team-wrap-socials {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
 }
+
 .socials-link-item {
 width: 40px;
 height: 40px;
 }
+
 .socials-link {
   display: flex;
   justify-content: center;
@@ -344,21 +374,25 @@ height: 40px;
   border-radius: 50%;
   transition: var(--animation);
 }
+
 .socials-link:hover,
 .socials-link:focus {
   background-color: var(--ocean);
 }
+
 .team-socials-icon {
   fill: var(--cloud);
   width: 16px;
   height: 16px;
 }
+
 .section-portfolio {
   padding: 120px 0 120px 0;
 }
 
 .portfolio-container {
 }
+
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -368,12 +402,14 @@ height: 40px;
   margin-bottom: 72px;
   color: var(--navy-blue);
 }
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
+
 .portfolio-item {
   color: #2e2f42;
   font-weight: 500;
@@ -384,8 +420,8 @@ height: 40px;
   flex-direction: column;
   justify-content: flex-start;
   max-width: calc((100% - 48px) / 3);
-
 }
+
   .overlay-wraper {
   position:relative;
   overflow: hidden;
@@ -405,6 +441,7 @@ height: 40px;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+
 .portfolio-item:hover,
 .portfolio-item:focus {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -441,17 +478,18 @@ height: 40px;
   padding: 100px 0 100px;
   background-color: #2e2f42;
 }
+
 .footer-wrap {
 display: flex;
 align-items: baseline;
-margin-right: 120px;
 }
+
 .footer-container {
   display: block;
   margin-left: 156px;
-  
-
+  margin-right: 120px;
 }
+
 .link-logo-footer {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
@@ -463,6 +501,7 @@ margin-right: 120px;
   display: flex;
   margin-bottom: 16px;
 }
+
 .logo-light {
   color: var(--cloud);
   font-family: "Raleway", sans-serif;
@@ -472,15 +511,18 @@ margin-right: 120px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .footer-text {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+
 .footer-wrap-socials {
   display: block;
 }
+
 .footer-socials-title {
   font-weight: 500;
   font-size: 16px;
@@ -490,17 +532,18 @@ margin-right: 120px;
   margin-bottom: 16px;
 }
 
-
 .footer-list-socials {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
 }
+
 .footer-socials-link-item {
   width: 40px;
   height: 40px;
 }
+
 .footer-socials-link {
   display: flex;
   justify-content: center;
@@ -511,10 +554,12 @@ margin-right: 120px;
   border-radius: 50%;
   transition: var(--animation);
 }
+
 .footer-socials-link:hover,
 .footer-socials-link:focus {
   background-color: var(--green);
 }
+
 .footer-socials-icon {
   fill: var(--cloud);
 }
