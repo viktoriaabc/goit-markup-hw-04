@@ -440,8 +440,10 @@ height: 40px;
 .page-footer {
   padding: 100px 0 100px;
   background-color: #2e2f42;
-  display: flex;
-  justify-content: flex-start;
+}
+.footer-wrap {
+display: flex;
+align-items: baseline;
 }
 .footer-container {
   display: block;
