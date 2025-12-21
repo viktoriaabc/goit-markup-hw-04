@@ -448,6 +448,7 @@ align-items: baseline;
 .footer-container {
   display: block;
   margin-left: 156px;
+  margin-right: 120px;
 
 }
 .link-logo-footer {
@@ -478,7 +479,6 @@ align-items: baseline;
 }
 .footer-wrap-socials {
   display: block;
-  margin-left: 120px;
 }
 .footer-socials-title {
   font-weight: 500;
@@ -516,6 +516,4 @@ align-items: baseline;
 }
 .footer-socials-icon {
   fill: var(--cloud);
-  width: 24px;
-  height: 24px;
 }
